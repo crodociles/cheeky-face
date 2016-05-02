@@ -1,0 +1,15 @@
+form{
+	font-family: 'Chewy', cursive;
+	font-size: 16pt;
+	text-align: left;
+}
+.form_input{
+	width: 250px;
+}
+#form_but{
+	height: 20px; width: 60px;
+}
+
+.error{
+	color: red;
+}

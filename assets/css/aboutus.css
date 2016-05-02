@@ -1,0 +1,61 @@
+/*
+==========
+PARAGRAPHS
+==========
+*/
+
+.para{
+	text-align: left;
+	width: 80%;
+	margin:  30px auto 20px auto;
+}
+.para_title{
+	font-family: 'Amatic SC', cursive;
+	font-size: 30pt;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.sub_h{
+	display: inline-block;
+}
+#para_4{
+}
+/*
+==========
+IMAGES
+==========
+*/
+
+#fp_child1{
+	float:left; 
+	height:300px;
+	margin:  0 5% 5% 10%;
+}
+#sub_logo{
+	width: 90%;
+	display: inline-block;
+	background: url("../img/butterfly_logo.png");
+}
+
+/*
+==========
+SOCIAL
+==========
+*/
+
+.social_icon{
+	display: inline-block;
+	margin: 10px 10px;
+}
+#social_fb_icon>a{
+	color:#3b5998;
+}
+#social_twitter_icon>a{
+	color:#00aced;
+}
+#social_gooplu_icon>a{
+	color:#dd4b39;
+}
+#social_insta_icon>a{
+	color: #517fa4;
+}

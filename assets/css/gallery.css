@@ -1,0 +1,118 @@
+/*
+==========
+Polaroid Picture
+==========
+*/
+
+.polaroid_outer{
+	height:250px; width:200px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	margin: 60px;
+	display: inline-block;
+	box-shadow: 0 0 10px #000;
+}
+.polaroid_inner{
+	height: 180px; width:180px;
+	margin: 10px auto 0 auto;
+	overflow: hidden;
+}
+
+/*
+==========
+Polaroid TILT
+==========
+*/
+
+#pol_f_paint{
+	-webkit-transform: rotate(10deg); /* Safari */
+    transform: rotate(10deg);
+}
+#pol_b_mod{
+	-webkit-transform: rotate(-5deg); /* Safari */
+    transform: rotate(-5deg);
+}
+#pol_bump_paint{
+	-webkit-transform: rotate(15deg); /* Safari */
+    transform: rotate(15deg);
+}
+#pol_body_paint{
+	-webkit-transform: rotate(-2deg); /* Safari */
+    transform: rotate(-2deg);
+}
+
+/*
+==========
+Polaroid IMAGE
+==========
+*/
+
+#f_paint{
+	background: url("../img/1.jpg") 5px -70px;
+	background-repeat: no-repeat;
+}
+#bump_paint{
+	background: url("../img/3.jpg") -25px -60px;
+	background-repeat: no-repeat;
+}
+#b_mod{
+	background: url("../img/5.jpg") -10px 0;
+	background-repeat: no-repeat;
+	background-size: 200px, 200px;
+}
+#body_paint{
+	background: url("../img/4.jpg") 5px -60px;
+	background-repeat: no-repeat;
+}
+
+/*
+==========
+Polaroid TYPOGRAPHY
+==========
+*/
+
+h1{
+	font-size: 40pt;
+	font-family: 'Chewy';
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+/*
+==========
+Gallery Images
+==========
+*/
+
+.gallery_pic{
+	height:250px; width: 150px;
+	display: inline-block;
+	overflow: hidden;
+	margin: 20px;
+}
+.gallery_thumb{
+	height: auto; width:180px;
+	border: 1px solid black;
+	margin: 10px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+}
+.pic_thumb{
+	width: 100%;
+	margin-bottom: -5px
+}
+
+/*
+==========
+Return
+==========
+*/
+
+#return{
+	clear: both;
+	margin: 100px;
+}

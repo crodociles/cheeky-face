@@ -1,7 +1,8 @@
 @media only screen and (min-width: 300px) {
 	.container{
-		width:100%;
+		width:102%;
 		margin-top:-85px;
+		margin-left: -2px;
 	}
 	#dt_logo{
 		display: none;
@@ -10,22 +11,27 @@
 		display: inherit;
 	}
 	#header{
-		height: 200px;
+		height: 220px;
 	}
 	#navbar{
 		display: none;
+	}
+	#mob_nav{
+		display: inherit;
+	}
+	form{
+		margin-left: 40px
 	}
 }
 
 @media only screen and (min-width: 650px) {
 	.container{
 		width:600px;
-		margin-top: -150px;
+		margin: -150px auto;
 	}
 	#dt_logo{
 		width:550px;
 		display: inherit;
-		margin-left: 50px;
 	}
 	#mob_logo{
 		display: none;
@@ -39,26 +45,27 @@
 	#navbar{
 		display: inherit;
 	}
+	#mob_nav{
+		display: none;
+	}
+	form{
+		margin-left: 150px
+	}
 }
 
 @media only screen and (min-width: 1200px) {
 	.container{
-		width:1150px;
+		width:1050px;
 		margin-top:-75px;
 	}
 	#dt_logo{
 		width:1000px;
-		display: inherit;
-		margin-left: 160px;
-	}
-	#mob_logo{
-		display: none;
-	}
-	#services_dd{
-		margin-left: -50px;
 	}
 	#header{
 		height: 200px;
 		display: inherit;
+	}
+	form{
+		margin-left: 150px;
 	}
 }

@@ -1,0 +1,16 @@
+.title{
+	margin:30px;
+}
+
+.images_div{
+	margin:-2px;
+}
+
+.images_div>img{
+	width:200px;
+    display: inline-block;
+}
+
+#menu_div > a{
+	text-decoration: none;
+}
